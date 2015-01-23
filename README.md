@@ -14,21 +14,3 @@ Drag a text widget into the Footer. Paste in the following:
 <span class="condition"><?php echo $condition; ?></span></div>
 	
 ```
-[thanks to @chriscoyier](http://css-tricks.com/using-weather-data-to-change-your-websites-apperance-through-php-and-css/)
-
-
-###Clock
-Drag a text widget into the Footer. Paste in the following div:
-
-```html
-<div class="clock">
-	<ul>
-		<li id="hours"> </li>
-		<li id="point">:</li>
-		<li id="min"> </li>
-	</ul>
-	<div id="Date"></div>
-</div>
-```
-[thanks to @Bluxart](http://www.alessioatzeni.com/blog/css3-digital-clock-with-jquery)
-
