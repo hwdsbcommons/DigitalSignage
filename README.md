@@ -4,13 +4,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 You are free to share & remix, but you must make attribution and you may not sell it.
 
 
-##Widgets
+##Components and Code being used:
 
-###Weather
-Drag a text widget into the Footer. Paste in the following:
-
-<span class="icon weather-<?php echo $code ?>"></span>
-<div class="conditions"><span class="temperature"><?php echo $temp ?>&deg;</span>
-<span class="condition"><?php echo $condition; ?></span></div>
-	
-```
+* The original base theme being used is DigitalSignageWordpress, thanks to [Nate Jones](https://github.com/natejones/DigitalSignageWordpress)
+* All of the slider tasks are being handled by Slick, thanks to [Ken Wheeler](https://github.com/kenwheeler/slick)
