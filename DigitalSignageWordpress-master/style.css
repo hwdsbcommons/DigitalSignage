@@ -1,0 +1,68 @@
+/*!
+Theme Name: Digital Signage
+Theme URI: http://pixelydo.com/flatscreens
+Author: Nate Jones
+Author URI: http://pixelydo.com
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: signage, digital signage, kiosk, carousel, slider, foundation, responsive
+
+*/
+
+/* Artfully masterminded by ZURB  */
+
+@import url('stylesheets/app.css');
+
+.dock {
+	background: rgba(95, 178, 206, 0.62)
+}
+
+h1 {
+text-align:left;
+}
+
+h2 {
+text-align:right;
+margin-right:42px;
+}
+
+/* ==========================================================================
+   Standard
+   ========================================================================== */
+.format-standard {
+padding: 10px 30px 42px 30px;
+}
+
+/* ==========================================================================
+   Quotes
+   ========================================================================== */
+.format-quote {
+width:1200px;
+margin: 200px auto;
+padding: 10px 30px 42px 30px;
+}
+
+/* Style blockquotes within the quote post. */
+.format-quote blockquote {}
+
+/* Don't forget cite in case a user makes use of it. */
+.format-quote cite {}
+
+/* ==========================================================================
+   Video
+   ========================================================================== */
+.format-video {
+}
+
+/* ==========================================================================
+   Image
+   ========================================================================== */
+.format-image {
+}
+
+/* ==========================================================================
+   Gallery
+   ========================================================================== */
+.format-gallery {
+}
