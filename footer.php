@@ -18,9 +18,9 @@
 		<?php dynamic_sidebar("Dock"); ?>
 	</div>
 	<?php wp_footer(); ?>
-	
-	<script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js' type='text/javascript' charset='utf-8'></script>
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/slick/slick.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js" integrity="sha256-4Cr335oZDYg4Di3OwgUOyqSTri0jUm2+7Gf2kH3zp1I=" crossorigin="anonymous"></script>
 <script type="text/javascript">
 
         $(document).ready(function(){

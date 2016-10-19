@@ -20,14 +20,10 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width" />
 	<title><?php bloginfo('name'); ?></title>
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900' rel='stylesheet' type='text/css'>  
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/stylesheets/normalize.css">
-	
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/stylesheets/app.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,900' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/slick/slick.css"/>
-
-	<script src="<?php bloginfo('template_url'); ?>/javascripts/vendor/custom.modernizr.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css" integrity="sha256-2RdmDD1veq0y68SwASxtC7hKE+IBoBLjNLzKS59Ghsk=" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/modernizr/3.3.1/modernizr.min.js" integrity="sha256-65rhSmwPSQGe83K1p6cudTQxfiMNutuHCIB0n8CqvF4=" crossorigin="anonymous"></script>
 
 <title><?php wp_title(); ?></title>
 
@@ -37,5 +33,3 @@
 
 <body <?php body_class(); ?>>
 	<div class="content">
-
-		
