@@ -11,22 +11,9 @@
 
 get_header(); ?>
 <div class="row">
-    <!-- Main Content -->
-    <div class="fade" role="content">
-			<?php $args=array(
-	                'post_type' => 'post',
-	                'post_status' => 'publish',
-	                'orderby' => 'rand'
-	            );
-	            $the_query = new WP_Query($args);
-	            if($the_query->have_posts()) : while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-			<?php get_template_part( 'content', get_post_format() ); ?>
-			<?php
-			endwhile;
-	        endif;
-			wp_reset_query();
-	        ?>
-			</div>
+	<!-- Main Content -->
+	<div class="fade" role="content">
+		<iframe src="/presentation/announcements" width="100%;" height="480;"></iframe>
 	</div>
 </div>
     <!-- End Main Content -->
