@@ -11,11 +11,14 @@
 
 get_header(); ?>
 <div class="row">
-	<!-- Main Content -->
+    <!-- Main Content -->
 	<div class="fade" role="content">
-		<iframe src="/presentation/announcements" width="100%;" height="480;"></iframe>
+		<div class="videoWrapper">
+			<iframe src="/presentation/announcements"></iframe>
+		</div>
 	</div>
 </div>
+
     <!-- End Main Content -->
 
 <?php get_footer(); ?>
