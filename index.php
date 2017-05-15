@@ -13,7 +13,7 @@ get_header(); ?>
 <div class="row">
     <!-- Main Content -->
 	<div class="fade" role="content">
-		<div class="videoWrapper">
+		<div class="slideWrapper">
 			<iframe src="/presentation/announcements"></iframe>
 		</div>
 	</div>
