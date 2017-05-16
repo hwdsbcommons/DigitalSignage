@@ -19,6 +19,10 @@
 	</div>
 	<?php wp_footer(); ?>
 
-    <script src="<?php bloginfo('template_url'); ?>/javascripts/vendor/app.js"></script>
- </body>
+<script>
+var iframeHeight = window.getComputedStyle(document.querySelector('iframe'),null).getPropertyValue('height');
+document.getElementById('footer-dock').style.top = iframeHeight;
+</script>
+
+</body>
 </html>
