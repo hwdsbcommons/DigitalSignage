@@ -13,7 +13,7 @@
             </div> <!-- /.content -->
 
 
-	<div class="row dock">
+	<div id="footer-dock" class="row dock">
 
 		<?php dynamic_sidebar("Dock"); ?>
 	</div>
